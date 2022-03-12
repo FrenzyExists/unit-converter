@@ -32,14 +32,14 @@ const main = () => {
 
     document.getElementById('f').innerHTML = (n*dict["c-f"][1]+dict["c-f"][0]).toFixed(3)
     document.getElementById('c').innerHTML = ((n-dict["c-f"][0])/dict["c-f"][1]).toFixed(3)
-    
-
-
-
 }
 
 const check = () => {
     let n = document.getElementById('in');
+    if (n.value > 9999) {
+        n.value = parseInt(n.value.toString().slice(0, 4))
+    }
+
     if (!/\d/.test(n.value)) {
         n.value = n;
     }
