@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700;800&family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap" rel="stylesheet"> 
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="in-container">
+            <h1>Metric/Imperial Unit Converter</h1>
+            <input id="in" type="number" maxlength="10" placeholder="20" oninput="check()" onkeyup="main()"></input>
+        </div>
+        <div class="out-container">
+            <!-- 0 meters = 0.000 feet | 0 feet = 0.000 meters -->
+            <h3>Length (Meter | Feet)</h3>
+            <p>
+                <span class="in-out">0</span> 
+                meters = 
+                <span id="ft">0</span> 
+                feet | 
+                <span class="in-out">0</span> 
+                feet = <span id="m">0</span> 
+                meters
+            </p>
+
+            <h3>Volume (Liter | Gallon)</h3>
+            <p>
+                <span class="in-out">0</span> 
+                liters = 
+                <span id="gl">0</span> 
+                gallons | 
+                <span class="in-out">0</span> 
+                gallons = <span id="l">0</span> 
+                liters
+            </p>
+
+            <h3>Mass (Kilogram | Pound)</h3>
+            <p>
+                <span class="in-out">0</span> 
+                kilograms = 
+                <span id="lb">0</span> 
+                pounds | 
+                <span class="in-out">0</span> 
+                pounds = <span id="kg">0</span> 
+                kilograms
+            </p>
+            <h3>Temperature (Celsius | Fahrenheit)</h3>
+            <p>
+                <span class="in-out">0</span> 
+                C° = 
+                <span id="f">0</span> 
+                F° | 
+                <span class="in-out">0</span> 
+                F° = <span id="c">0</span> 
+                C°
+            </p>
+        </div>
+    </div>
+    <footer>
+        Rick Sanchez did nothing wrong
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
