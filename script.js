@@ -21,6 +21,10 @@ const main = () => {
     for (i = 0; i < in_out.length; i++ ) {
         in_out[i].innerHTML = n
     }
+    document.getElementById('f').innerHTML = (n*dict["c-f"][1]+dict["c-f"][0]).toFixed(3)
+    document.getElementById('c').innerHTML = ((n-dict["c-f"][0])/dict["c-f"][1]).toFixed(3)
+    n = Math.abs(n)
+
     document.getElementById('ft').innerHTML = (n*dict["ft-m"]).toFixed(3)
     document.getElementById('m').innerHTML = (n*1/dict["ft-m"]).toFixed(3)
 
@@ -30,8 +34,7 @@ const main = () => {
     document.getElementById('lb').innerHTML = (n*dict["kg-lb"]).toFixed(3)
     document.getElementById('kg').innerHTML = (n*1/dict["kg-lb"]).toFixed(3)
 
-    document.getElementById('f').innerHTML = (n*dict["c-f"][1]+dict["c-f"][0]).toFixed(3)
-    document.getElementById('c').innerHTML = ((n-dict["c-f"][0])/dict["c-f"][1]).toFixed(3)
+    
 }
 
 const check = () => {

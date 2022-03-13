@@ -4,12 +4,14 @@
 }
 
 body {
-    background: #1C1C1C;
-    margin: 10vh auto;
+    background: #1f2222;
+    margin: 10% auto;
     font-family: 'Fuzzy Bubbles', sans-serif;
     font-style: bold;
     font-weight: 400;  
-    color: #FFFFFF; 
+    color: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h3 {    
@@ -68,12 +70,12 @@ input[type=number] {
     background-color: #1F2937;
     margin: 0 auto;
     text-align: center;
-
     max-width: 550px;
     max-height: 650px;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 20px;
+    box-shadow: 0 1px 5px -1px rgba(1,0,0,.3);
 }
 
 
@@ -88,7 +90,8 @@ input[type=number] {
       );
       padding-top: 5.25em;
       padding-bottom: 1.5em;
-      
+      border-radius: 20px 20px 10px 10px;
+      box-shadow: 0 1px 5px -1px rgba(1,0,0,.3);
 }
 
 footer {
