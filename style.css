@@ -4,20 +4,20 @@
 }
 
 body {
-    background: #1f2222;
+    background: #181f21;
     margin: 10% auto;
     font-family: 'Fuzzy Bubbles', sans-serif;
     font-style: bold;
-    font-weight: 400;  
-    color: #FFFFFF;
+    font-weight: 400;
+    color: #b3b9b8;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-h3 {    
+h3 {
     font-weight: 600;
     font-size: 16px;
-    padding-top: 26px;    
+    padding-top: 26px;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
 }
 
 p {
-    font-weight: 700; 
+    font-weight: 700;
     color: #D2D2D2;
     letter-spacing: -0.015em;
 }
@@ -43,9 +43,9 @@ input {
     line-height: 2em;
     text-align: center;
     max-width: 400px;
-    color: #FFFFFF;
+    color: #D2D2D2;
     resize: none;
-    outline: none;    
+    outline: none;
 }
 
 .out-container {
@@ -55,19 +55,19 @@ input {
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .container {
     display: flex;
     flex-flow: column nowrap;
-    background-color: #1F2937;
+    background-color: #22292b;
     margin: 0 auto;
     text-align: center;
     max-width: 550px;
@@ -75,23 +75,21 @@ input[type=number] {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 0 1px 5px -1px rgba(1,0,0,.3);
+    box-shadow: 0 1px 5px -1px rgba(1, 0, 0, .3);
 }
 
 
 .in-container {
     width: 100%;
-    background-image: linear-gradient(
-        60deg,
-        hsl(226deg 51% 19%) 0%,
-        hsl(221deg 26% 58%) 39%,
-        hsl(196deg 46% 79%) 91%,
-        hsl(120deg 9% 91%) 100%
-      );
-      padding-top: 5.25em;
-      padding-bottom: 1.5em;
-      border-radius: 20px 20px 10px 10px;
-      box-shadow: 0 1px 5px -1px rgba(1,0,0,.3);
+    background-image: linear-gradient(60deg,
+            #233061 0%,
+            #4b5775 39%,
+            #6c858f 91%,
+            #8196a8 100%);
+    padding-top: 5.25em;
+    padding-bottom: 1.5em;
+    border-radius: 20px 20px 10px 10px;
+    box-shadow: 0 1px 5px -1px rgba(1, 0, 0, .3);
 }
 
 footer {
@@ -99,7 +97,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #141414;
-    color: white;
+    background: #22292b;
+    color: #b3b9b8;
     text-align: center;
 }
