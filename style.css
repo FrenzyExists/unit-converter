@@ -48,6 +48,10 @@ input {
     outline: none;
 }
 
+input#in::placeholder {
+    color: #d2d2d259
+}
+
 .out-container {
     padding-bottom: 12px;
 }
